@@ -19,10 +19,13 @@ We provide ready to run implementations of deepsort using yolov3-tiny yolov3 and
 # Quick Start
 
 1. Download weights from [our google drive](https://drive.google.com/drive/folders/1a_q-jeazMH7H-qikFGdgKrwyH_vxtUg3).
+
 2.Place them in the model_data folder and propely link to them in the yolo.py file.Also use the correct class in the same file.
+
 3.Download our test scenes from the same google drive or use your own.Link to them in the test.py file.
-3.Run YOLO_DEEP_SORT with cmd :
+
+4.Run YOLO_DEEP_SORT with cmd :
    ```
    python test.py
    ```
-4.Results will be shown in a new window as it processes the video and also benchmark data in the CMD window.
+5.Results will be shown in a new window as it processes the video and also benchmark data in the CMD window.
