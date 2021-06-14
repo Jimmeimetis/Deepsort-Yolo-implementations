@@ -2,6 +2,9 @@
 
 Supplementary material for our tests.This deepsort implementation has been modified to display proper confirmed tracks on the bounding boxes.Adjust n_init,IOU,Score and more as seen fit.
 
+![alt text](https://i.imgur.com/UssvgLh.png)
+![alt text](https://i.imgur.com/ifS4spc.png)
+
 We provide ready to run implementations of deepsort using yolov3-tiny yolov3 and yolov4.We provide the MS-COCO weights from darknet that have been converted to keras.We also provide our own weights that we created by training these models on the UA-DETRAC dataset.These weights can only detect one class named "car" and it outperforms the MS-COCO ones.
 
 # Introduction
